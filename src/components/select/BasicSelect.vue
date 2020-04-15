@@ -45,4 +45,7 @@ export default {
   font-family: "Lato", sans-serif;
   font-size: 16px;
 }
+.el-select-dropdown__item.selected, .el-select-dropdown__item.selected:hover {
+    font-weight: 300;
+}
 </style>

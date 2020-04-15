@@ -57,4 +57,8 @@ li.el-select-group__title {
     font-weight: 600;
     /* border-bottom: 1px solid #5a5f6955; */
 }
+
+.el-select-dropdown__item.selected, .el-select-dropdown__item.selected:hover {
+    font-weight: 300;
+}
 </style>

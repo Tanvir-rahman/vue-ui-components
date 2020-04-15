@@ -40,6 +40,11 @@ import BasicSwitch from '../components/switch/BasicSwitch.vue'
 import TextSwitch from '../components/switch/TextSwitch.vue'
 import DisabledSwitch from '../components/switch/DisabledSwitch.vue'
 
+// Select
+import BasicSelect from '../components/select/BasicSelect.vue'
+import MultiSelect from '../components/select/MultiSelect.vue'
+import GroupedSelect from '../components/select/GroupedSelect.vue'
+
 // Import other components
 
 const components = [
@@ -67,7 +72,10 @@ const components = [
   DescriptionAlert,
   BasicSwitch,
   TextSwitch,
-  DisabledSwitch
+  DisabledSwitch,
+  BasicSelect,
+  MultiSelect,
+  GroupedSelect
 ]
 
 const install = function (Vue) {
@@ -106,6 +114,9 @@ export default {
   DescriptionAlert,
   BasicSwitch,
   TextSwitch,
-  DisabledSwitch
+  DisabledSwitch,
+  BasicSelect,
+  MultiSelect,
+  GroupedSelect
   // Other components
 }
